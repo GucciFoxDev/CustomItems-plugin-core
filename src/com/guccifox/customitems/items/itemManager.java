@@ -13,19 +13,15 @@ public class itemManager {
     public static ItemStack creativemind;
     public static ItemStack gamebreaker;
     public static ItemStack aspectoftheend;
-    public static ItemStack MachineGunBow;
     public static ItemStack GrapplingHook;
     public static ItemStack FlowerOfTruth;
-    public static ItemStack MadBlock;
 
     public static void init() {
         createCreativemind();
         createGamebreaker();
         createAspectOfTheEnd();
-        createMachineGunBow();
         createGrapplingHook();
         createFlowerOfTruth();
-        createMadBlock();
     }
 
     private static void createCreativemind () {
