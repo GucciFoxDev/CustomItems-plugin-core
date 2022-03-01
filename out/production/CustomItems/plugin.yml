@@ -1,0 +1,34 @@
+name: CustomItems
+version: 1.4
+author: GucciFox
+main: com.guccifox.customitems.Main
+api-version: 1.13
+depend: [Multiverse-Core, TitleAPI]
+commands:
+  givecreativemind:
+    description: Gives our custom item to the player.
+    usage: /<command>
+  givegamebreaker:
+    description: Gives our custom item to the player.
+    usage: /<command>
+  giveaspectoftheend:
+    description: Gives our custom item to the player.
+    usage: /<command>
+  givegrapplehook:
+    description: Gives our custom item to the player.
+    usage: /<command>
+  givefloweroftruth:
+    description: Gives our custom item to the player.
+    usage: /<command>
+  givemadblock:
+    description: Gives our custom item to the player.
+    usage: /<command>
+  heal:
+    description: Heals you to your full health
+    usage: /<command>
+  feed:
+    description: Feeds you to your max food level
+    usage: /<command>
+  ping:
+    description: Play ping pong
+    usage: /<command>
