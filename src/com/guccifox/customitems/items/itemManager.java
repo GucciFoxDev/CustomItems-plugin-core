@@ -83,19 +83,6 @@ public class itemManager {
         aspectoftheend = item;
     }
 
-    private static void createMachineGunBow(){
-        ItemStack item = new ItemStack(Material.BOW, 1);
-        ItemMeta meta = item.getItemMeta();
-        meta.setDisplayName("§9Machine Gun Bow");
-        List<String> lore = new ArrayList<>();
-        lore.add("§9RARE");
-        lore.add("§6Left Click:");
-        lore.add("§7Shoots 5 arrows a second for 5 seconds");
-        meta.setLore(lore);
-        item.setItemMeta(meta);
-        MachineGunBow = item;
-    }
-
     private static void createGrapplingHook() {
         ItemStack item = new ItemStack(Material.FISHING_ROD, 1);
         ItemMeta meta = item.getItemMeta();
@@ -122,21 +109,5 @@ public class itemManager {
         meta.setLore(lore);
         item.setItemMeta(meta);
         FlowerOfTruth = item;
-    }
-
-    private static void createMadBlock () {
-        ItemStack item = new ItemStack(Material.REDSTONE_ORE, 1);
-        ItemMeta meta = item.getItemMeta();
-        meta.setDisplayName("§4MadBlock");
-        List<String> lore = new ArrayList<>();
-        lore.add("§fThis item is so unstable");
-        lore.add("§fand mad that once it is placed");
-        lore.add("§fit explodes and sends everyone");
-        lore.add("§fflying!");
-        meta.setLore(lore);
-        meta.addEnchant(Enchantment.LUCK, 1, false);
-        meta.addItemFlags(ItemFlag.HIDE_ENCHANTS);
-        item.setItemMeta(meta);
-        MadBlock = item;
     }
 }

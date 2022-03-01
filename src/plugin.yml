@@ -3,7 +3,6 @@ version: 1.4
 author: GucciFox
 main: com.guccifox.customitems.Main
 api-version: 1.13
-depend: [Multiverse-Core, TitleAPI]
 commands:
   givecreativemind:
     description: Gives our custom item to the player.
@@ -18,9 +17,6 @@ commands:
     description: Gives our custom item to the player.
     usage: /<command>
   givefloweroftruth:
-    description: Gives our custom item to the player.
-    usage: /<command>
-  givemadblock:
     description: Gives our custom item to the player.
     usage: /<command>
   heal:
